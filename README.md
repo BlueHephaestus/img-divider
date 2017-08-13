@@ -51,11 +51,11 @@ So for example:
 
 As stated in the installation instructions, you can run the demo via `python img_divider example.png`, which will produce the example_1.png, example_2.png, example_3.png, and example_4.png files. Here are the results:
 
-Input - example.png:
+*Input* - example.png:
 
 ![Input](/example.png)
 
-Output:
+*Output*:
 
 example_1.png:
 
