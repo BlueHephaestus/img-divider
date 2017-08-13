@@ -32,7 +32,7 @@ For each filename given, my script will open the file and divide the image into 
 
 It then saves each of these smaller sections as a new image, of the format original_image_1, original_image_2, and so on.
 
-So for example:
+So for some examples:
 
   **Input**: asdf.jpg 
 
