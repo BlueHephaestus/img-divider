@@ -18,23 +18,17 @@ Do not separate the filenames with commas, you can pass in as many filenames as 
 
 For each filename given, my script will open the file and divide the image into 4 sections like so:
 
+```
 |-----------------|
-
 |        |        |
-
 |   1    |   2    |
-
 |        |        |
-
 |-----------------|
-
 |        |        |
-
 |   3    |   4    |
-
 |        |        |
-
 |-----------------|
+```
 
 It then saves each of these smaller sections as a new image, of the format original_image_1, original_image_2, and so on.
 
