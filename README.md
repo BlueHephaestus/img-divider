@@ -55,16 +55,21 @@ Input - example.png:
 ![Input](/example.png)
 
 Output:
+
 example_1.png:
+
 ![Output - topleft](/example_1.png)
 
 example_2.png:
+
 ![Output - topright](/example_2.png)
 
 example_3.png:
+
 ![Output - botleft](/example_3.png)
 
 example_4.png:
+
 ![Output - botright](/example_4.png)
 
 
