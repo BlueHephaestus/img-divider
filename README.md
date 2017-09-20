@@ -30,7 +30,9 @@ For each filename given, my script will open the file and divide the image into 
 |-----------------|
 ```
 
-It then saves each of these smaller sections as a new image, of the format original_image_1, original_image_2, and so on.
+Then: 
+
+By default, it then saves each of these smaller sections as a new image, of the format original_image_1, original_image_2, and so on.
 
 So for some examples:
 
@@ -48,21 +50,25 @@ So for some examples:
 
   **Output**: a_1_1_1.png, a_1_1_2.png, a_1_1_3.png, a_1_1_4.png
 
+However if you go into the function arguments, the images can be optionally recombined, after a separate function is called on each part of the images. Look inside for further documentation on this
+
 # Installation
 
 1. Download / Clone this repository
 
 2. Run the demo via `python img_divider example.png`, or try it with any of your own images, using the instructions in the above description.
 
+Prerequisites are numpy (if you wish to recombine the images), OpenCV, and standard python and associated standard python libraries.
+
 # Demo
 
-As stated in the installation instructions, you can run the demo via `python img_divider example.png`, which will produce the example_1.png, example_2.png, example_3.png, and example_4.png files. Here are the results:
+As stated in the installation instructions, you can run the demo via `python img_divider example.png`, which will produce the example_1.png, example_2.png, example_3.png, example_4.png, and example_new.png files. Here are the results:
 
 **Input** - example.png:
 
 ![Input](/example.png)
 
-**Output**:
+**Output of first function call - a simple division with no arguments**:
 
 example_1.png:
 
@@ -80,6 +86,12 @@ example_4.png:
 
 ![Output - botright](/example_4.png)
 
+
+**Output of second function call - a division, resize of each part, then recombination**:
+
+example_new.png:
+
+![Output - full recombination](/example_new.png)
 
 # Final Note
 
