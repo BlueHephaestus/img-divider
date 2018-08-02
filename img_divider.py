@@ -13,14 +13,14 @@ def split_and_handle_img_parts(f=None, recombine=False):
     Check that we have args
     """
     if len(sys.argv) < 2:
-        print "Image(s) must be supplied for processing, e.g. `python img_divider.py $img1 $img2 $img3`" 
+        print("Image(s) must be supplied for processing, e.g. `python img_divider.py $img1 $img2 $img3`")
         sys.exit()
         
     """
     Now loop through filenames
     """
     for fname in sys.argv[1:]:
-        print "Dividing %s..." % fname 
+        print("Dividing %s..." % fname )
         #Read in image
         img = cv2.imread(fname)
         h, w = img.shape[0], img.shape[1]
